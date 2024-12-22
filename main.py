@@ -1,7 +1,7 @@
 import json
 import os
 import time
-from EmailHandler import SMS_Handler, print_dict
+from modules.core import SMS_Handler, print_dict
 
 EMAIL = "your_email@domain.com"
 SENDER_NAME = "your_name"
